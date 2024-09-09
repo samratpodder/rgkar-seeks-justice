@@ -3,6 +3,7 @@ import './App.css'
 
 import HeroBanner from './components/HeroBanner'
 import TickerComponent from './components/TickerComponent';
+import TimelineComponent from './components/TimelineComponent';
 
 function App() {
 
@@ -10,6 +11,7 @@ function App() {
     <>
       <TickerComponent/>
       <HeroBanner/>
+      <TimelineComponent></TimelineComponent>
     </>
   )
 }

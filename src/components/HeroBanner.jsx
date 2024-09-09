@@ -2,6 +2,7 @@ import { useState } from "react";
 import bannerBg from '../assets/bannerBg.jpeg';
 import { Container,Paper } from "@mui/material";
 import styled from "styled-components";
+import TimelineComponent from "./TimelineComponent";
 
 const HeroContainer = styled.div`
 width: 100%;
@@ -34,7 +35,6 @@ function HeroBanner() {
     <BannerTextContainer>WE STAND WITH RG KAR</BannerTextContainer>
     <ImageContainer src={bannerBg} alt="" />
   </HeroContainer>
-    
   </>;
 }
 
