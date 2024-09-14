@@ -69,5 +69,5 @@ function TimelineComponent() {
     </>
   );
 }
-
+export {Wrapper};
 export default TimelineComponent;

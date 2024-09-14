@@ -5,6 +5,7 @@ font-family: "Bebas Neue", sans-serif;
 font-size: 2rem;
 font-weight: 500;
 color: black;
+padding: 1rem 0rem;
 `;
 
 function SectionTitle({content}){
